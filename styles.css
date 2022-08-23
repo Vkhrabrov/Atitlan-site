@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+font-family: 'Nunito', sans-serif;
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #E8F8F7;
+    margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.header {
+    color: white;
+    background-image: url("images/Lake.png");
+    background-size: cover;
+    padding: 18px 0px 120px 0px;
+    text-shadow: 0px 0px 3px black;
+}
+#lake, #discr {
+    margin: 20px auto;
+    width: 500px;
+    border: px solid black;
+    padding: 1px 1px;
+}
+   
+#offer {
+    width: 300px;
+    border: 0px;
+    border-radius: 6px;
+    margin: 15px auto;
+    padding: 10px 1px;
+    background-color: #D4A322;
+}
+
+
+.midpics{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 250px;
+    margin: auto auto;
+}
+
+#pics{
+    border: 5px solid #D4A322;
+    border-radius: 50%;
+    
+}
+
+.guide{
+    
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.quide2{
+    color: brown;
+    background-color: thistle;
+    border: px solid black;
+    border-radius: 10px; 
+    border-bottom: 8px solid tomato;
+    margin: auto;
+    width: 400px;
+    Display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#selfie{
+    width: full; 
+    border-radius: 10px;
+}
+
+#guide{
+    width: 100px;
+    margin: 15px auto;
+    border: px solid black;
+    background-color: #D4A322;
+    border-radius: 6px;
+    padding: 10px 1px;
+}
